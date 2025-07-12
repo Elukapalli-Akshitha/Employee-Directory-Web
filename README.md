@@ -1,4 +1,4 @@
-<# Employee Directory Web App
+# Employee Directory Web App
 
 A responsive and interactive Employee Directory web interface built with HTML, CSS, and JavaScript. This project demonstrates modern front-end development principles, clean modular code, and user-friendly design. No backend is required; all data is managed in-memory in the browser.
 
@@ -24,7 +24,7 @@ A responsive and interactive Employee Directory web interface built with HTML, C
 ## Setup & Usage
 
 1. **Clone or Download** this repository to your local machine.
-2. **Open `home.html`** in your web browser (double-click or right-click > Open with...)
+2. **Open `home.html`** in your web browser (double-click or right-click > Open with...).
 3. **Use the App**:
    - Add, edit, delete employees
    - Search, filter, sort, and paginate the employee list
@@ -40,6 +40,7 @@ employee-directory/
 ├── main.css # Styles for layout, modal, responsive, etc.
 └── README.md # This file
 
+
 ## Customization
 
 - **Add More Departments/Roles**: Edit the `<select>` options in `home.html` for department and role in both the filter sidebar and the form.
@@ -54,4 +55,5 @@ employee-directory/
 
 ---
 
-Enjoy using and customizing your Employee Directory! 
+Enjoy using and customizing your Employee Directory!
+
