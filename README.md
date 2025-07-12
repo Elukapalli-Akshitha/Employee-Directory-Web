@@ -50,7 +50,7 @@ employee-directory/
 
 ## Credits
 
-- **Author:** Yadhagiri Ponnada (and contributors)
+- **Author:** Elukapalli Akshitha (and contributors)
 - **Design & Code:** Modern, clean, and modular front-end best practices
 
 ---
