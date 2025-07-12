@@ -34,3 +34,24 @@ A responsive and interactive Employee Directory web interface built with HTML, C
 
 ## File Structure
 
+employee-directory/
+├── app.js # Main JavaScript logic (UI, data, validation)
+├── home.html # Main HTML page (UI structure, can use Freemarker)
+├── main.css # Styles for layout, modal, responsive, etc.
+└── README.md # This file
+
+## Customization
+
+- **Add More Departments/Roles**: Edit the `<select>` options in `home.html` for department and role in both the filter sidebar and the form.
+- **Change Default Employees**: Edit the initial employee card(s) in `home.html`.
+- **Styling**: Modify `main.css` for colors, layout, or responsive tweaks.
+- **Persistence**: To make data persistent, integrate with a backend or use browser storage (not included).
+
+## Credits
+
+- **Author:** Yadhagiri Ponnada (and contributors)
+- **Design & Code:** Modern, clean, and modular front-end best practices
+
+---
+
+Enjoy using and customizing your Employee Directory! 
