@@ -70,9 +70,6 @@ To view this app live using GitHub Pages:
 1. Push to your GitHub repo
 2. Go to **Settings → Pages**
 3. Set the source to `main` branch → `/root`
-4. Your app will be live at  
-   `https://elukapalli-akshitha.github.io/Employee-Directory-Web`
-
 
 
 ## 📃 License
