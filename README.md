@@ -57,8 +57,7 @@ You can easily extend or modify these in the HTML `<select>` dropdowns.
 
 ## 👩‍💻 Developer Info
 
-**Author:** Akshitha Elukapalli  
-**Portfolio:** [LinkedIn / GitHub links if any]  
+**Author:** Akshitha Elukapalli 
 **Technologies Used:**  
 HTML5, CSS3 (Flexbox/Grid), JavaScript ES6+
 
