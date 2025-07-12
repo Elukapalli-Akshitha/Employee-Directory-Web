@@ -1,59 +1,82 @@
-# Employee Directory Web App
+# Employee Directory Web Interface
 
-A responsive and interactive Employee Directory web interface built with HTML, CSS, and JavaScript. This project demonstrates modern front-end development principles, clean modular code, and user-friendly design. No backend is required; all data is managed in-memory in the browser.
+A sleek and responsive employee directory web app built using **HTML**, **CSS**, and **JavaScript**. This frontend-only project showcases dynamic data handling, user-friendly design, and interactive components—ideal for managing employee records in small to mid-scale setups.
 
-## Features
+## ✨ Key Highlights
 
-- **Dashboard Page**: View a grid of employee cards with name, email, department, and role.
-- **Add/Edit Employee**: Modal form for adding or editing employees with client-side validation.
-- **Delete Employee**: Remove employees from the directory with confirmation.
-- **Search**: Search employees by name or email.
-- **Filter**: Sidebar to filter by first name, department, or role.
-- **Sort**: Sort employees by first name, department, or role.
-- **Pagination**: Choose how many employees to show per page and navigate between pages.
-- **Responsive Design**: Works well on desktop, tablet, and mobile.
-- **No Backend Required**: All data is stored in-memory and resets on page reload.
-
-## Technologies Used
-
-- HTML5
-- CSS3 (Flexbox, Grid, Responsive Design)
-- Vanilla JavaScript (ES6+)
-- [Optional] Freemarker template syntax for server-side rendering (not required for static use)
-
-## Setup & Usage
-
-1. **Clone or Download** this repository to your local machine.
-2. **Open `home.html`** in your web browser (double-click or right-click > Open with...).
-3. **Use the App**:
-   - Add, edit, delete employees
-   - Search, filter, sort, and paginate the employee list
-   - All changes are in-memory and will reset on page reload
-
-> **Note:** No build tools or server are required. For Freemarker integration, use a Java web server with Freemarker configured.
-
-## File Structure
-
-employee-directory/
-├── app.js # Main JavaScript logic (UI, data, validation)
-├── home.html # Main HTML page (UI structure, can use Freemarker)
-├── main.css # Styles for layout, modal, responsive, etc.
-└── README.md # This file
-
-
-## Customization
-
-- **Add More Departments/Roles**: Edit the `<select>` options in `home.html` for department and role in both the filter sidebar and the form.
-- **Change Default Employees**: Edit the initial employee card(s) in `home.html`.
-- **Styling**: Modify `main.css` for colors, layout, or responsive tweaks.
-- **Persistence**: To make data persistent, integrate with a backend or use browser storage (not included).
-
-## Credits
-
-- **Author:** Elukapalli Akshitha (and contributors)
-- **Design & Code:** Modern, clean, and modular front-end best practices
+- **Add / Edit / Delete Employees** – Interactive modal forms with validations.
+- **Search & Filter** – Quickly find employees by name, email, department, or role.
+- **Sorting & Pagination** – Smart sorting and page-wise navigation.
+- **Mobile Responsive** – Clean design that adapts to desktops, tablets, and mobiles.
+- **No Backend Needed** – All data is stored temporarily in the browser memory.
 
 ---
 
-Enjoy using and customizing your Employee Directory!
+## 📂 Project Structure
 
+Employee-Directory-Web/
+│
+├── home.html # Main HTML structure
+├── main.css # Modular and responsive CSS
+├── main.js # Logic for UI interactivity
+└── README.md # Project documentation (you’re reading it!)
+
+
+---
+
+## 🔧 How to Use
+
+1. **Download or Clone** this repository.
+2. **Open `home.html`** in any modern browser.
+3. **Use the App**:
+   - Add or edit employee details
+   - Filter/search/sort the list
+   - See dynamic changes without reloading
+
+> 💡 All data resets on reload (in-memory only).
+
+---
+
+## 📌 Departments & Roles (Predefined)
+
+- Departments: HR, Engineering, IT, Marketing, Sales, Finance
+- Roles: Developer, Manager, Lead, Analyst, Designer, Coordinator
+
+You can easily extend or modify these in the HTML `<select>` dropdowns.
+
+---
+
+## 💡 Customization Ideas
+
+- 🎨 Update theme or layout via `main.css`
+- 💾 Add browser storage (`localStorage`) for persistence
+- 🌐 Connect to a backend API to fetch/store employees
+- 🔄 Export/Import employees as JSON or CSV
+
+---
+
+## 👩‍💻 Developer Info
+
+**Author:** Akshitha Elukapalli  
+**Portfolio:** [LinkedIn / GitHub links if any]  
+**Technologies Used:**  
+HTML5, CSS3 (Flexbox/Grid), JavaScript ES6+
+
+---
+
+## 🚀 Demo Hosting
+
+To view this app live using GitHub Pages:
+
+1. Push to your GitHub repo
+2. Go to **Settings → Pages**
+3. Set the source to `main` branch → `/root`
+4. Your app will be live at  
+   `https://elukapalli-akshitha.github.io/Employee-Directory-Web`
+
+
+
+## 📃 License
+
+This project is open-source and can be used for educational or demonstration purposes.
+*Built with 💻 and ☕ by Akshitha Elukapalli.*
